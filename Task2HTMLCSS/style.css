@@ -1,0 +1,566 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.topcol{
+    border: 1px solid rgb(21, 27, 31);
+    background-color: rgb(21, 27, 31);
+    height: 300px;
+}
+.topbtns{
+    /* border: 1px solid red; */
+    margin: 15px;
+    padding-left: 120px;
+    display: flex;
+}
+.btt1{
+    /* border: 1px solid green; */
+    padding-left: 40px;
+    background-color: none;
+}
+button{
+    background-color: rgb(21, 27, 31);
+    border: none;
+    color: whitesmoke;
+    /* border-radius: 5px; */
+}
+button:hover{
+    cursor: pointer;
+}
+.top-contents{
+    /* border: 1px solid yellow; */
+    /* width: max-content; */
+    height: 200px;
+    /* padding-top: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    color: whitesmoke;
+}
+.namehead{
+    /* border: 1px solid rgb(196, 48, 129); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: max-content;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-sub{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: max-content;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mains{
+    /* border: 1px solid rgb(2, 146, 146); */
+    display: flex;
+    height: 400px;
+}
+.mains-contents{
+    /* border: 2px dotted dodgerblue; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 1em;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.p1{
+    /* border: 1px solid red; */
+    width: 300px;
+    /* height: 210px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    display: block;
+}
+.p2{
+    /* border: 1px solid blue; */
+    width: 300px;
+    /* height: 150px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    text-align: justify;
+}
+.pimage{
+    /* border: 1px solid purple; */
+    display: flex;
+    width: 50vw;
+    padding-left: 40px;
+    align-items: center;
+}
+img{
+    height: 300px;
+    width: 250px;
+}
+.main-btns{
+    /* border: 2px dotted rgb(21, 255, 0); */
+    height: 100px;
+    display: flex;
+    width: 100vw;
+    justify-content: center; 
+    align-items: center;
+    gap: 0.75rem
+}
+.m-btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c4c4c5; 
+    border: none;
+    color: rgb(61, 61, 61); 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.m-btn1 img {
+    max-width: 13px;
+    max-height: 13px; 
+    margin-right: 10px; 
+}
+.m-btn1 span {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e00303; 
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.m-btn2 img {
+    max-width: 18px;
+    max-height: 18px; 
+    margin-right: 10px; 
+}
+.m-btn2 span {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-btn3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db6a01; 
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.m-btn3 img {
+    max-width: 11px;
+    max-height: 11px; 
+    margin-right: 10px; 
+}
+.m-btn3 span {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.quotes{
+    height: 100px;
+    background-color: rgb(21, 27, 31);
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    /* font-size: 16px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logos{
+  justify-content: space-between;
+}
+.logos img {
+    height: 11px;
+    width: 11px;
+    padding-left: 12px; padding-right: 3px;  
+}
+.logos span {
+    padding-right: 20px;
+}
+.awardln{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+}
+.fline{
+    border-bottom: 1px solid rgb(117, 119, 117);
+    height: 9px;
+    width: 46vw;
+    /* display: flex;
+    flex-direction: row; */
+}
+#row4{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 150px;
+}
+.row4in{
+    border: 1px solid rgb(162, 159, 159);
+    height: 90px;
+    width: 200px;
+    display: block;
+    flex-direction: column;
+    /* align-items: right; */
+    /* justify-content: stretch; */
+    padding: 8px;
+    gap: 0.5em;
+    text-align: justify;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row4in :hover {
+    overflow:visible;
+    /* height: max-content; */
+    color: #0e05bb;
+    /* font-weight: bold; */
+}
+.row4in > p{
+    font-size: 12px;
+    /* word-spacing: -1px; */
+}
+#pp{
+    /* border: 1px solid black; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1em;
+}
+.poetry{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* border: 1px dotted purple; */
+    width: 50vw;
+}
+.pline{
+    border-bottom: 1px solid rgb(117, 119, 117);
+    height: 9px;
+    width: 15vw;
+    /* border: 1px solid red; */
+}
+.poemdsng{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    /* border: 1px dotted purple; */
+    width: 50vw;
+}
+.pline2{
+    border-bottom: 1px solid rgb(117, 119, 117);
+    height: 9px;
+    width: 13vw;
+    /* border: 1px solid red; */
+}
+#btmlst{
+    /* border: 1px solid green; */
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    gap: 1em;
+}
+.poetrylist{
+    display: flex;
+    /* justify-content: end; */
+    width: 49vw;
+    height: inherit;
+    /* border: 1px solid blue; */
+    /* padding-right: 200px; */
+    align-items: center;
+}
+.psongslist{
+    display: flex;
+    /* justify-content: start; */
+    width: 49vw;
+    height: inherit;
+    /* border: 1px solid blue; */
+    /* padding-left: 25px; */
+    align-items: center;
+}
+.poetperl{
+    /* border: 1px solid orange; */
+    /* padding-left: 130px; */
+    margin-left: 260px;
+    width: 30vw;
+    gap: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+}
+.poetpera-r{
+    /* border: 1px solid orange; */
+    /* padding-left: 130px; */
+    margin-left: 20px;
+    width: 31vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer{
+    border: 1px solid rgb(21, 27, 31);
+    background-color: rgb(21, 27, 31);
+    height: 180px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.ftabout{
+    color: white;
+    /* border: 1px solid yellow; */
+    width: 25vw;
+    height: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 1px solid rgb(87, 87, 87);
+}
+.fttechused{
+    color: white;
+    /* border: 1px solid rgb(0, 13, 255); */
+    width: 10vw;
+    margin-top: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ftcontdisclam{
+    color: white;
+    /* border: 1px solid rgb(255, 0, 204); */
+    width: 28vw;
+    height: 85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 1px solid rgb(87, 87, 87);
+    padding-left: 10px;
+}
+
+a :visited{
+    color: #0e05bb;
+}
+a :active{
+    color: #0e05bb;
+}
+
+
+/* Default styles that apply to all screen sizes */
+
+@media (max-width: 575.98px) { 
+    
+    .topcol {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .topbtns {
+        overflow-wrap: normal;
+        position: sticky;
+        padding-left: 20px;
+    }
+    .btt1 {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+        justify-content: flex-start;
+    }
+    .top-contents {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .namehead {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: 30px;
+    }
+    .name-sub {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: 15px;
+    }
+    .mains {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .mains-contents {
+        overflow-wrap:inherit;
+        position: relative;
+        font-size: small;
+    }
+    .p1 {
+        overflow:auto;
+        /* position:relative; */
+        font-size: smaller;
+        justify-content: right;
+        height: 140px;
+        /* border: 1px solid black; */
+    }
+    .p2 {
+        overflow: auto;
+        overflow-wrap: normal;
+        position: relative;
+        font-size: smaller;
+        margin-left: 40px;
+        /* border: 1px solid black; */
+    }
+    img {
+        height: 200px;
+        width: 150px;
+        /* border: 1px solid black; */
+    }
+    .main-btns {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .m-btn1 {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .m-btn2 {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .m-btn1 span {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .m-btn2 span {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .m-btn2 img {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .quotes {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .logos img {
+        overflow-wrap: normal;
+        position: relative;
+        height: 8px;
+        width: 8px;
+    }
+    .logos span {
+        overflow-wrap: normal;
+        position: relative;
+    }
+    .fline {
+        overflow-wrap: normal;
+        position: relative;
+    }
+    .row4 {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .row4in {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    #pp {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .poetry {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .pline {
+        overflow-wrap: normal;
+        position: relative;
+    }
+    .poemdsng {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .pline2 {
+        overflow-wrap: normal;
+        position: relative;
+    }
+    #btmlst {
+        overflow-wrap:inherit;
+        position: relative;
+        font-size: small;
+    }
+    .poetrylist {
+        /* overflow:auto;
+        position:fixed; */
+        font-size: small;
+        justify-content: space-evenly;
+    }
+    .poetperl {
+        overflow:auto;
+        position: relative;
+        font-size: small;
+        justify-content: left;
+    }
+    .poetpera-r {
+        overflow:visible;
+        position: relative;
+        font-size: small;
+        justify-content: left;
+    }
+    #footer {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .ftabout {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .fttechused {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+    .ftcontdisclam {
+        overflow-wrap: normal;
+        position: relative;
+        font-size: small;
+    }
+
+
+}
+
+
+
